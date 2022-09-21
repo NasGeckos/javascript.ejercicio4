@@ -1,0 +1,15 @@
+// Ejercicio JavaScript 04
+
+let altura_integer = 159;
+console.log(altura_integer + ' ' + 'centimetros')
+
+let altura_float = 1.59;
+console.log(altura_float + ' ' + 'metros')
+
+let peso_float = 68.5;
+console.log(peso_float + ' ' + 'kilogramos')
+
+
+console.log(altura_float.toFixed(1) + ' ' + 'metros redondeada hacia arriba')
+
+console.log(peso_float.toFixed() + ' ' + 'metros redondeada hacia abajo...') //no me salio
